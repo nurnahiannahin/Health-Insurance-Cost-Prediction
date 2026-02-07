@@ -5,7 +5,7 @@ This project develops a regression model to predict individual health insurance 
 
 This project aims to predict individual health insurance costs based on demographic and health-related factors. Using a dataset of over 1,300 beneficiaries, the project involves Exploratory Data Analysis (EDA), data preprocessing, and training a regression model to estimate the medical "charges" incurred by customers.
 
-📊 Dataset Description: 
+# 📊 Dataset Description: 
 
 The model is trained on the insurance.csv dataset, which includes the following features:
 
@@ -17,14 +17,14 @@ Smoker: Smoking status (yes, no).
 Region: The beneficiary's residential area in the US (northeast, southeast, southwest, northwest).
 Charges (Target): Individual medical costs billed by health insurance.
 
-🛠️ Tech Stack: 
+# 🛠️ Tech Stack: 
 
 Language: Python
 Libraries: pandas & numpy for data manipulation.
 seaborn & matplotlib for data visualization.
 scikit-learn for machine learning and evaluation.
 
-🚀 Key Workflow: 
+# 🚀 Key Workflow: 
 
 Exploratory Data Analysis (EDA): Visualizing distributions of age, BMI, and charges using histograms and KDE plots to understand data variance.
 Data Preprocessing: Handling categorical variables (Sex, Smoker, Region).
